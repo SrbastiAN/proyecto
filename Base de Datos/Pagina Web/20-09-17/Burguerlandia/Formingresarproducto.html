@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Burguerlandia</title>
+<style>
+
+h1{
+	text-align: center;
+	color: #493501;
+	border-bottom: dotted #493501;
+	width: 50%;
+	margin: auto;
+	
+	
+}
+
+table{
+	border:1px solid #030303;
+	padding:20px 50px;
+	margin-top:50px;
+}
+
+body{
+	background-image: url("img/fondo1.jpg")
+}
+
+</style>
+</head>
+
+<body>
+<h1>Ingresar Producto</h1>
+<form name="form1" method="POST" action="ingresarproducto.php" enctype="multipart/form-data">
+  <table border="0" align="center">
+  <tr>
+    <td><table border="0" align="center">
+      <tr>
+        <td>Nombre</td>
+        <td><label for="Nomb"></label>
+          <input type="text" name="Nomb" id="Nomb" required></td>
+      </tr>
+      <tr>
+        <td>Valor</td>
+        <td><label for="Valor"></label>
+          <input type="text" name="Valor" id="Valor" required></td>
+      <tr>
+        <td>Descripcion</td>
+        <td><label for="Desc"></label>
+          <input type="text" name="Desc" id="Desc" required></td>
+       <tr>
+        <td>Foto</td>
+        <td><label for="Foto"></label>
+          <input type="file" name="Foto" id="Foto" required></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center"><input type="submit" name="enviar" id="enviar" value="Enviar"></td>
+        <td align="center"><input type="reset" name="Borrar" id="Borrar" value="Borrar"></td>
+      </tr>
+    </table></td>
+  </tr>
+  </table>
+</form>
+</body>
+</html>

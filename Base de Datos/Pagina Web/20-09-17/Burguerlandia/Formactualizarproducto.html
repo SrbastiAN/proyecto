@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Burguerlandia</title>
+<link rel="stylesheet" type="text/css" href="css/estilos_form.css">
+</head>
+
+<body>
+<h1>Actualizar Producto</h1>
+<form name="form1" method="POST" action="actualizarproducto.php">
+  <table border="0" align="center">
+  <tr>
+    <td><table border="0" align="center">
+    <tr>
+        <td>ID del Producto</td>
+        <td><label for="ID"></label>
+          <input type="text" name="ID" id="ID" required></td>
+      </tr>
+      <tr>
+        <td>Nombre</td>
+        <td><label for="Nomb"></label>
+          <input type="text" name="Nomb" id="Nomb" required></td>
+      </tr>
+      <tr>
+        <td>Valor</td>
+        <td><label for="Valor"></label>
+          <input type="text" name="Valor" id="Valor" required></td>
+      <tr>
+        <td>Descripcion</td>
+        <td><label for="Desc"></label>
+          <input type="text" name="Desc" id="Desc" required></td>
+       <tr>
+        <td>Foto</td>
+        <td><label for="Foto"></label>
+          <input type="file" name="Foto" id="Foto" required></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center"><input type="submit" name="enviar" id="enviar" value="Enviar"></td>
+        <td align="center"><input type="reset" name="Borrar" id="Borrar" value="Borrar"></td>
+      </tr>
+    </table></td>
+  </tr>
+  </table>
+</form>
+</body>
+</html>

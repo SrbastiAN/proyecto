@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Colegio el Olivo</title>
+<style>
+
+h1{
+	text-align: center;
+	color: #493501;
+	border-bottom: dotted #493501;
+	width: 50%;
+	margin: auto;
+	
+	
+}
+
+table{
+	border:1px solid #030303;
+	padding:20px 50px;
+	margin-top:50px;
+}
+
+body{
+	background-image: url("img/fondo1.jpg")
+}
+
+</style>
+</head>
+
+<body>
+<h1>Eliminar Producto</h1>
+<form name="form1" method="POST" action="borrarproducto.php">
+  <table border="0" align="center">
+    <tr>
+      <td>Id del Producto a eliminar</td>
+      <td><label for="ID"></label>
+      <input type="text" name="ID" id="ID"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center"><input type="submit" name="enviar" id="enviar" value="Enviar"></td>
+      <td align="center"><input type="reset" name="Borrar" id="Borrar" value="Borrar"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
